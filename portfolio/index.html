@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="top">
+        <div class="detail">
+         <div class="pict">
+            <img src="yash.jpg">
+         </div> 
+         <div class="right">
+            <h1 style="margin-left:20vw;font-weight:bolde;color:aliceblue;padding-top:20px;">HI I AM YASHWANTH</h1>
+            <br>
+            <h2 style="color:black;padding-left:50%;"></h2>
+            <div class="imgs">
+                <img src="edu.jpeg">
+                <img src="proj.jpeg">
+
+
+            </div>
+            <div>
+                <span style="margin-left:20%;font-weight:bolder;color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><a href="#Edu">Education</a></span>
+                <span style="margin-left:150px;font-weight:bolder;color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><a href="#proj">My Projects</a></span>
+            </div>
+         </div>  
+        </div>
+    </div>
+    <div id="Edu">
+        <div class="text">
+            <h2>My Education:</h2>
+            <div class="row-outer">
+                <div class="container">
+                  <div class="animated-heading">
+                    <h1 style="padding-top:10px;">I completed my<span id="words"> 10 th class in Narayana school with 9.8 CGPA</span></h1>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        (function () {
+          var words = [" 10 th class in Narayana school with 9.5 CGPA"," Intermediate in Narayana Junior College with 95.1 %"," B.Tech in S.R.M Institute Of science And technology with 9.12 CGPA"],
+          i = 0;
+          setInterval(function(){ $('#words').fadeOut(function(){
+              $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+            }); }, 3000)
+        })();
+      </script>
+    <div class="he" style="background-color:black">
+        <h style="color:aqua;font-weight:bolder;font-size:xx-large;margin-left:40%;display:inline;font-size: 60px;text-align: center;">Skills:</h>
+    </div>
+   
+<div class="thi">
+    <div class="thi-left" style="border:2px solid yellow;">
+        <p>" A skill may be called an art when it represents a body of knowledge or branch of learning, as in the art of medicine or the art of warAlthough the arts are also skills, there are many skills that form an art but have no connection to the fine arts."</p>
+    </div>
+   
+      
+    </div>
+   
+</div>
+
+<div id="skill">
+    <h2 style="text-align:center;color:wheat;font-weight:bolder;padding-top:30px;font-size: xx-large;">I Am a:</h2>
+    <div class="pics">
+
+        <div class="wname">
+            <span style="padding-left:160px;color:crimson;font-weight: bolder;font-size:xx-large;">Student</span>
+            <span style="margin-left:170px;color:crimson;font-weight: bolder;font-size:xx-large;">Developer</span>
+            <span style="margin-left:130px;color:crimson;font-weight: bolder;font-size:xx-large;">Programmer</span>
+            <span style="margin-left:180px;color:crimson;font-weight: bolder;font-size:xx-large;">Intern</span>
+        </div>
+    </div>
+</div>
+<div id="hob">
+    <h2 style="text-align:edge;color:wheat;font-weight:bolder;padding-top:30px;font-size: x-large;">My Hobbies are:</h2>
+    <div class="pics">
+        <div class="wname">
+            <span style="padding-left:60px;color:crimson;font-weight: bolder;font-size:x-large;">Reading novels</span>
+            <span style="margin-left:60px;color:crimson;font-weight: bolder;font-size:x-large;">Listening to music</span>
+            <span style="margin-left:50px;color:crimson;font-weight: bolder;font-size:x-large;">Watching debates</span>
+            <span style="margin-left:110px;color:crimson;font-weight: bolder;font-size:x-large;">Browsing Net</span>
+        </div>
+    </div>
+</div>
+<div id="proj">
+    <h style="color:white;font-size:50px;font-weight: bolder;margin-right: 40%;">My Projects are:</h>
+    <div class="proj">
+        <ul>
+            <li>Image Steganography</li>
+            <li>Three level authentication</li>
+            <li>Online voting system using blockchain</li>
+            <li>Oxygen level monitoring system</li>
+        </ul>
+    </div>
+    
+</div>
+
+    
+</body>
+</html>
